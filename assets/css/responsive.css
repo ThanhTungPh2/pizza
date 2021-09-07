@@ -137,6 +137,10 @@
     .div {
         margin-top: 40px;
     }
+    .btn a {
+        max-width: 90%;
+        font-size: 12px;
+    }
 }
 /* https://marcosfranchising.com/wp-content/uploads/2020/11/HomeHero001.jpg */
 /* .nav__btn {
