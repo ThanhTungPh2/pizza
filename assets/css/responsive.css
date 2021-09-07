@@ -1,0 +1,187 @@
+@media (min-width: 1025px) {
+    .task__bar--2 {
+        display: none;
+    }
+    .src1 {
+        display: block;
+    }
+    .btn__link {
+        width: 30%;
+        margin: 0 auto;
+    }
+    .btn a {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1024px) {
+    .header__list {
+        display: none;
+    }
+}
+@media (min-width: 740px) and (max-width: 1024px) {
+    .content video,
+    .content {
+        height: 593.95px;
+    }
+    .modal__nav {
+        width: 50%;
+    }
+    .form__wrapper {
+        width: 90%;
+    }
+    .form {
+        width: 100%;
+    }
+    .btn a {
+        max-width: none;
+    }
+    .video__content {
+        display: none;
+    }
+    .src2 {
+        display: block;
+    }
+    .src1 {
+        display: none;
+    }
+}
+@media (max-width: 739px) {
+    .header {
+        display: none;
+    }
+    .About__item {
+        display: block;
+    }
+    .About__text {
+        text-align: center;
+    }
+    .content__logo {
+        margin: 0;
+        right: 0;
+    }
+    .content__header {
+        justify-content: space-between;
+    }
+    .content__logo img {
+        max-width: 122px;
+    }
+    .content__about {
+        margin: 10px 0;
+    }
+    .content__about h2 {
+        font-size: 2.05rem;
+    }
+    .content {
+        height: 521.28px;
+        background-image: url(../image/HomeHero001.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .content video {
+        display: none;
+    }
+    .modal__nav {
+        width: 100%;
+    }
+    .wrapper__image {
+        max-width: none;
+    }
+    .btn {
+        display: block;
+        margin: 50px auto 0;
+        width: 83%;
+    }
+    .About__text--wrapper {
+        margin-top: 40px;
+    }
+    .About__text h2 {
+        font-size: 23px;
+    }
+    .Video h4 {
+        font-size: 27px;
+    }
+
+    .Video__wrapper {
+        grid-template-columns: none;
+        grid-template-rows: repeat(2, 1fr);
+        grid-row-gap: 40px;
+    }
+    .NewBlog {
+        flex-direction: column;
+    }
+    .New,
+    .Blog {
+        width: 100%;
+    }
+    .Blog__item--text a {
+        font-size: 16px;
+    }
+    .form__wrapper {
+        width: 100%;
+    }
+    .form {
+        width: 95%;
+    }
+    .form__control {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+    .btn-primary {
+        text-align: center;
+    }
+    .get__link .link-wrapper {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .div {
+        margin-top: 40px;
+    }
+}
+/* https://marcosfranchising.com/wp-content/uploads/2020/11/HomeHero001.jpg */
+/* .nav__btn {
+    display: none;
+}
+.form__control {
+    grid-template-columns: 1fr;
+}
+.content__logo {
+    margin: 0;
+    right: 0;
+}
+.content__header {
+    justify-content: space-between;
+}
+.content__logo img {
+    max-width: 122px;
+}
+.content__about {
+    margin: 10px 0;
+}
+.content__about h2 {
+    font-size: 2.05rem;
+}
+.content video,
+.content {
+    height: 521.28px;
+}
+.modal__nav {
+    width: 100%;
+}
+.wrapper__image {
+    max-width: none;
+}
+.About__item {
+    display: block;
+    margin-bottom: 0;
+}
+.About__text {
+    max-width: none;
+    margin-top: 40px;
+}
+.About__item:nth-child(even) .wrapper__image {
+    order: 2;
+}
+.btn a {
+    width: 90%;
+} */
