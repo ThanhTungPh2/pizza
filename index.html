@@ -118,7 +118,6 @@
             </a>
         </div>
         <div class="About Base">
-            <canvas class="background"></canvas>
             <div class="About__item">
                 <div class="About__image">
                     <div class="wrapper__image">
@@ -719,31 +718,6 @@
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
-        </script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-        <script>
-            window.onload = function () {
-                Particles.init({
-                    selector: ".background",
-                    color: "#DF2E2E",
-                    maxParticles: 300,
-                    connectParticles: true,
-                    responsive: [
-                        {
-                            breakpoint: 768,
-                            options: {
-                                maxParticles: 80,
-                            },
-                        },
-                        {
-                            breakpoint: 375,
-                            options: {
-                                maxParticles: 50,
-                            },
-                        },
-                    ],
-                });
-            };
         </script>
     </body>
 </html>

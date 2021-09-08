@@ -73,13 +73,13 @@ var attributes2 = document.querySelectorAll(".js-wrapper-text-odd");
 var attributes3 = document.querySelectorAll(".js-wrapper-text-even");
 if(window.innerWidth > 739){
   for(let attr of attributes2){
-    setAttributes(attr,{"data-aos":"fade-down","data-aos-duration":"200","data-aos-delay":"100"});
+    setAttributes(attr,{"data-aos":"fade-down","data-aos-duration":"200","data-aos-delay":"500"});
   }
   for(let attr of attributes3){
-    setAttributes(attr,{"data-aos":"fade-down","data-aos-duration":"200","data-aos-delay":"100"});
+    setAttributes(attr,{"data-aos":"fade-down","data-aos-duration":"200","data-aos-delay":"500"});
   }
   for(let attr of attributes1){
-    setAttributes(attr,{"data-aos":"zoom-in","data-aos-easing":"ease-in-out-back","data-aos-duration":"500"});
+    setAttributes(attr,{"data-aos":"zoom-in","data-aos-easing":"ease-in-out-back","data-aos-duration":"800"});
   }
 }
   
